@@ -1,6 +1,6 @@
 from configparser import ConfigParser
 
-def config(filename='src/time-management-app/database.ini', section='postgresql'):
+def config(filename='var/Www/report/database.ini', section='postgresql'):
     parser = ConfigParser()
     parser.read(filename)
     db= {}
